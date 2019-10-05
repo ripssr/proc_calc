@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Forms Events Change</title>
+  <link rel="stylesheet" type="text/css" href="forms_events_change.css">
+</head>
+<body>
+
+  <fieldset class="procents">
+    <legend class="title">Procent Calculator</legend>
+
+    <div class="procent-div">
+
+      <label>Amount of deposit:
+        <input type="text" name="amount" value="0,0" style="text-align: right;">
+      </label>
+
+      <br><hr><br>
+
+      <label>Term of deposit:
+        <select name="term-select">
+          <option>3 months</option>
+          <option>6 months (0.5 year)</option>
+          <option>12 months (1 year)</option>
+          <option>18 months (1.5 year)</option>
+          <option>24 months (2 years)</option>
+          <option>36 months (3 years)</option>
+          <option>48 months (4 years)</option>
+        </select>
+      </label>
+
+      <br><hr><br>
+
+      <label>Currency:
+        <select name="currency-select">
+          <option>RUB</option>
+          <option>USD</option>
+          <option>EUR</option>
+          <option>UAG</option>
+          <option>KZT</option>
+          <option>YEN</option>
+          <option>GBP</option>
+        </select>
+      </label>
+
+      <br><hr><br>
+
+      <label>Capitalisation
+        <input type="checkbox" name="capitalize">
+      </label>
+
+    </div>
+
+    <div class="sum">
+      <div class="sum-value">0</div>
+      <span class="proc-span">
+        <span class="name-field">SUM</span>
+        <b>0</b>(your %)
+      </span>
+    </div>
+  </fieldset>
+
+  <script src="forms_events_change.js"></script>
+</body>
+</html>

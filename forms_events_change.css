@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.procents {
+  position: relative;
+  width: calc(100% - 2.5em);
+  margin-top: 1em;
+  padding: 1em;
+  padding-bottom: 2.5em;
+  background: bisque;
+  border: 0.1em solid darkgrey;
+  border-radius: 1em;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'Blackadder ITC';
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.procent-div {
+  position: relative;
+  width: 70%;
+  padding: 0.76em;
+  padding-bottom: 2.5em;
+  margin: 1em 0 -0.3em 11%;
+  background: #ffd6b3;
+  border-radius: 1em 1em 0 0;
+  border: 0.1em solid gold;
+}
+
+.procent-div label {
+  display: block;
+  margin: 0.5em 0;
+  padding: 0 1em;
+  font-family: Georgia;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.procent-div label input,
+.procent-div label select {
+  float: right;
+  margin-left: 1em;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  background: ivory;
+  font-weight: bold;
+  outline: none;
+}
+
+.procent-div hr {
+  border-color: gold;
+}
+
+.procent-div label:last-child {
+  float: right;
+  font-weight: normal;
+  margin-top: 0.1em;
+}
+
+.proc-span {
+  position: absolute;
+  width: 70%;
+  top: 0;
+  left: 11%;
+  padding: 2em 0.87em;
+  z-index: 0;
+  background: gold;
+  border-radius: 0 0 1em 1em;
+  text-align: right;
+}
+
+.proc-span b {
+  margin-right: 1em;
+}
+
+.name-field {
+  float: left;
+  padding-left: 0.5em;
+  margin-top: -0.05em;
+  font-family: Georgia;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.sum {
+  position: relative;
+  margin-top: 0.25em;
+  padding: 0.37em;
+}
+
+.sum-value {
+  position: relative;
+  width: 30%;
+  left: 25%;
+  margin: 0.9em 1em 1em 1em;
+  padding: 0.4em;
+  border-radius: 1em;
+  outline: none;
+  background: #f3e2ce;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: dimgrey;
+  text-align: center;
+  z-index: 1;
+}
